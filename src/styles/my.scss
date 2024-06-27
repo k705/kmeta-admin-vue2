@@ -1,0 +1,49 @@
+.flex_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex_between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex_col_center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.flex_col_start {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.flex_col_between {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex_grow {
+ flex: 1;
+}
+
+
+/* 标题样式 */
+.clearfix {
+  height: 20px;
+  img {
+    width: 5px;
+    height: 20px;
+  }
+  .clearfix_text {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+    vertical-align: top;
+  }
+}
